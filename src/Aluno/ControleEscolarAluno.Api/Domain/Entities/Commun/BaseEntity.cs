@@ -12,5 +12,5 @@ public abstract class BaseEntity
     public Guid Id { get; set; }
     public DateTime CreatAt { get; set; }
     public DateTime? UpdateAt { get; set; }
-    public int Deleted { get; set; }
+    public int Deleted { get; set; } = 0;
 }
