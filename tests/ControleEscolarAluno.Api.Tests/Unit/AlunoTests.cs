@@ -9,7 +9,7 @@ public class AlunoTests
     public void Should_Get_Age()
     {
         //Arrange
-        var aluno = GetAluno("", "", 1987, 0);
+        var aluno = GetAluno("", "", 1988, 0);
 
         //Act
         var age = aluno.GetAge();
