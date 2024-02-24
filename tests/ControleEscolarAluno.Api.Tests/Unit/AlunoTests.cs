@@ -95,8 +95,8 @@ public class AlunoTests
             .BeFalse();
     }
 
-    [Fact(DisplayName = "doesn't have a name and last name")]
-    public void Doesnt_Have_A_Name_And_Last_Name()
+    [Fact(DisplayName = "qtd allowed characters")]
+    public void Qtd_Allowed_Characters()
     {
         //Arrange
         var aluno = GetAluno("Hiroylk", "Brilhante da Silva", "", 0, 0);
@@ -110,8 +110,8 @@ public class AlunoTests
             .BeTrue();
     }
 
-    [Fact(DisplayName = "doesn't have a name and last name")]
-    public void Doesnt_Have_A_Name_And_Last_Name()
+    [Fact(DisplayName = "qtd disallowed characters")]
+    public void Qtd_disallowed_Characters()
     {
         //Arrange
         var aluno = GetAluno("Hiroylk", "Brilhante", "", 0, 0);
